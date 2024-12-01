@@ -1,0 +1,59 @@
+
+.baseline{
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  margin: 20px 0;
+  color: #999;
+  position: relative;
+}
+.baseline::after{
+  content: '';
+  display: block;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  border-bottom: 1px solid #ccc;
+  left: 5%;
+}
+
+.baseline::before{
+  content: '';
+  display: block;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  border-bottom: 1px solid #ccc;
+  right: 5%;
+}
+.nav-height{
+  background-color: #f0f0f0;
+}
+.swiper-slide img{
+  width: 100%;
+  border-radius: 5px;
+}
+.head-title{
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: center;
+  text-shadow: 0px 0px 12px #ed6a0c;
+}
+.swiper-container{
+  width: 95%;
+  margin: auto;
+  --swiper-pagination-color: #fff;/* 更改指示点颜色 */
+}
+
+.swiper-container{
+  margin-top: 8px;
+}
+
+.change button{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #fff;
+  border-radius: 0;
+}

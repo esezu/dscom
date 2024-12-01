@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>订单</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/public/extend/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="/public/static/css/public.css" media="all">
+    
+     <style>
+        html, body {width: 98%;height: 98%;}
+         body {background-color: #FFF;}
+    </style>
+</head>
+<body style="width: 100%;height: 98%">
+<div class="layuimini-main" style="margin-left: 5px;margin-top: 5px;">
+
+
+
+
+  <div class="layui-row">
+    <div class="layui-col-xs12">
+       <div class="layui-form" id="table-list">
+
+          <div style="background-color: #eee;padding: 15px;height:38px">
+            
+            <div class="layui-inline" style="float: right;" >
+              <button class="layui-btn layui-btn-normal" id="buycode">购买邀请码</button>
+
+            </div>
+          </div>
+
+          <table class="layui-table" lay-data="{height: 'full-215',  page: true, limit:8,id:'ajaxData', url:'{:url('code')}'}" lay-filter="ajaxData">
+            <thead>
+              <tr>
+                <th lay-data="{field:'code'}">邀请码</th>
+                <th lay-data="{field:'userid'}">使用用户</th>
+                <th lay-data="{field:'status'}">状态</th>
+                <th lay-data="{field:'ctime'}">购买时间</th>
+                <th lay-data="{field:'utime'}">使用时间</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+    </div> 
+  </div>
+
+
+
+
+
+
+
+
+</div>
+<script src="/public/static/js/jquery.js" charset="utf-8"></script>
+<script src="/public/extend/layui/layui.js" charset="utf-8"></script>
+<script type="text/javascript">
+
+layui.use(['laydate','table','layer'],function(){
+    var laydate = layui.laydate;
+    var table = layui.table;
+    var layer = layui.layer;
+    
+    $('#buycode').on('click', function(){
+        layer.prompt({title: '当前邀请码价格：{$code_price}元/个', formType: 0}, function(pass, index){
+           $.ajax({
+            url:"{:url('buycode')}",
+            data:{p:pass},
+            type:'post',
+            dataType:'json',
+            success:function(e){
+              layer.msg(e.msg);
+              if(e.code == 200){
+                setTimeout(function(){
+                  table.reload('ajaxData');
+                },800)
+              }
+            }
+           })
+        });
+    });
+}) 
+</script>
+
+</body>
+</html>

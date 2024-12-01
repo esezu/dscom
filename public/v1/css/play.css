@@ -1,0 +1,23 @@
+.video{
+  width: 100%;
+  height: calc(100vw / 16 * 9);
+}
+.video video{
+  width: 100%;
+}
+.change button::before{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  color: #fff;
+}
+.videobox{
+  width: 100%;
+  height: calc(100vw / 16 * 9);
+}
+.video-js{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,73 @@
+---------------------------------------------------------------
+[ 2022-05-04T05:59:18+08:00 ] 113.205.95.58 GET ds.yisezu.com/
+[运行时间：0.047217s] [吞吐率：21.18req/s] [内存消耗：2,432.19kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://104.129.8.8:8888/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-04T05:59:18+08:00 ] 113.205.95.58 GET ds.yisezu.com/cn/home/login
+[运行时间：0.060106s] [吞吐率：16.64req/s] [内存消耗：3,487.56kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://104.129.8.8:8888/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=k9l6db25gngfbnfs89hat1j293',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001525s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.003388s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001786s ]

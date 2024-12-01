@@ -1,0 +1,64 @@
+---------------------------------------------------------------
+[ 2022-05-03T02:52:02+08:00 ] 185.181.61.24 GET www.niuapi.top/
+[运行时间：0.045741s] [吞吐率：21.86req/s] [内存消耗：2,431.18kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-03T02:52:03+08:00 ] 185.181.61.24 GET www.niuapi.top/cn/home/login
+[运行时间：0.161962s] [吞吐率：6.17req/s] [内存消耗：3,485.49kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001113s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.015476s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.013973s ]

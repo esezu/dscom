@@ -1,0 +1,111 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:88:"/usr/local/lighthouse/softwares/btpanel/wwwroot/dscom/apps/cn/view/promoters/qrcode.html";i:1604259016;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>推广链接二维码</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/public/extend/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="/public/static/css/public.css" media="all">
+
+    <style>
+        body {background-color: #FFF;}
+        .aaaa{
+            margin: 0px auto;
+            text-align: center;;
+            display: block;
+
+            width: 300px;
+            height: 300px;
+            margin-top: 10px
+        }
+        .bbb{
+            margin: 20px auto;
+            text-align: center;;
+            display: block;
+            width: 300px;
+
+
+        }
+        .layui-card-headers{
+            position: relative;
+            line-height: 42px;
+            padding: 0 15px;
+            border-bottom: 1px solid #f6f6f6;
+            color: #333;
+            border-radius: 2px 2px 0 0;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body >
+<div class="layuimini-main" style="">
+
+    <div style="padding: 20px; background-color: #F2F2F2;">
+        <div class="layui-row layui-col-space15">
+
+            <div class="layui-col-md12">
+                <div class="layui-card">
+                    <div class="layui-card-headers">
+
+                        <span style="font-size: 2rem;">推广链接：</span><span id = 'url' ><?php echo $url; ?></span>
+
+
+
+                    </div>
+                    <div class="layui-card-body">
+                        <div id = 'qrcode' class="aaaa"></div>
+                        <div class="bbb">  <button type="button"  class="layui-btn layui-btn-fluid  layui-btn-normal" id = 'hcopy'>复制链接</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script src="/public/static/js/jquery.js" charset="utf-8"></script>
+<script src="/public/extend/layui/layui.js" charset="utf-8"></script>
+<script src="/public/static/js/jquery.qrcode.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function(){
+        layui.use(['layer'],function(){
+            var layer = layui.layer;
+        })
+        jQuery('#qrcode').qrcode({width: 300,height: 300,correctLevel:0,render: "table",text: "<?php echo $url; ?>"});
+        $('#hcopy').click(function(){
+            var ssrsss = $("#url").text();
+            var flag = copyText(ssrsss);
+            if(flag){
+                layer.msg('复制成功！');
+            }else{
+                layer.msg('复制失败！');
+            }
+        })
+        function copyText(text) {
+            var textarea = document.createElement("input");//创建input对象
+            var currentFocus = document.activeElement;//当前获得焦点的元素
+            document.body.appendChild(textarea);//添加元素
+            textarea.value = text;
+            textarea.focus();
+            if(textarea.setSelectionRange)
+                textarea.setSelectionRange(0, textarea.value.length);//获取光标起始位置到结束位置
+            else
+                textarea.select();
+            try {
+                var flag = document.execCommand("copy");//执行复制
+            } catch(eo) {
+                var flag = false;
+            }
+            document.body.removeChild(textarea);//删除元素
+            currentFocus.focus();
+            return flag;
+        }
+    })
+</script>
+
+</body>
+</html>

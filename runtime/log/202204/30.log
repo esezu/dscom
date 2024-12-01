@@ -1,0 +1,1495 @@
+---------------------------------------------------------------
+[ 2022-04-30T01:02:48+08:00 ] 45.32.51.164 GET ds.yisezu.com/
+[运行时间：0.146959s] [吞吐率：6.80req/s] [内存消耗：2,430.60kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'user-agent' => 'BAOTA-SSL-CHECK',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-30T01:03:11+08:00 ] 113.205.95.58 GET ds.yisezu.com/
+[运行时间：0.041023s] [吞吐率：24.38req/s] [内存消耗：2,432.22kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://104.129.8.8:8888/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-30T01:03:34+08:00 ] 113.205.95.58 GET ds.yisezu.com/cn/home/login
+[运行时间：0.066982s] [吞吐率：14.93req/s] [内存消耗：3,487.77kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://104.129.8.8:8888/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002803s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.006776s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003066s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:39+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins
+[运行时间：0.035185s] [吞吐率：28.42req/s] [内存消耗：2,353.45kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-30T01:03:39+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/login
+[运行时间：0.055697s] [吞吐率：17.95req/s] [内存消耗：3,413.94kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->login[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/admins/view/home/login.html [ array (
+  0 => 'username',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001717s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002640s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000943s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:47+08:00 ] 113.205.95.58 POST ds.yisezu.com/admins/home/login
+[运行时间：0.056876s] [吞吐率：17.58req/s] [内存消耗：3,321.30kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://ds.yisezu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://ds.yisezu.com/admins/home/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->login[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001226s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001950s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_admin` [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_admin` WHERE  `account` = 'admin' LIMIT 1 [ RunTime:0.000894s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:48+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/index
+[运行时间：0.052185s] [吞吐率：19.16req/s] [内存消耗：3,416.72kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ds.yisezu.com/admins/home/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->index[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/admins/view/home/index.html [ array (
+  0 => 'username',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001360s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000734s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:49+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/tt
+[运行时间：0.073364s] [吞吐率：13.63req/s] [内存消耗：3,404.77kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'tt',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ds.yisezu.com/admins/home/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->tt[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/admins/view/home/tt.html [ array (
+  0 => 'username',
+  1 => 'title',
+  2 => 'money',
+  3 => 'date',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001501s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002836s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT DATE_FORMAT(utime,'%Y-%m-%d') as time,sum(amount) as  money FROM tbl_sys_order WHERE utime > '2022-04-23 00:00:00'  GROUP BY  time [ RunTime:0.002551s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:50+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=yesterdaymoney
+[运行时间：0.148986s] [吞吐率：6.71req/s] [内存消耗：3,327.63kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'yesterdaymoney',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001236s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002359s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_sys_order` [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT SUM(amount) AS tp_sum FROM `tbl_sys_order` WHERE  `ctime` BETWEEN 1651161600 AND 1651248000 LIMIT 1 [ RunTime:0.000797s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:50+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=hit
+[运行时间：0.219476s] [吞吐率：4.56req/s] [内存消耗：3,320.52kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'hit',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001035s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_hit` [ RunTime:0.001776s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tbl_hit` LIMIT 1 [ RunTime:0.000799s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:50+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=todayls
+[运行时间：0.239795s] [吞吐率：4.17req/s] [内存消耗：3,333.85kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'todayls',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001016s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.008765s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_order` [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT SUM(payamount) AS tp_sum FROM `tbl_order` WHERE  `status` = 2  AND `ctime` BETWEEN '2022-04-30 00:00:00' AND '2022-05-01 00:00:00' LIMIT 1 [ RunTime:0.001264s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:50+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=allmoney
+[运行时间：0.228845s] [吞吐率：4.37req/s] [内存消耗：3,322.13kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'allmoney',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_sys_order` [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT SUM(amount) AS tp_sum FROM `tbl_sys_order` LIMIT 1 [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:50+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=todaymoney
+[运行时间：0.268818s] [吞吐率：3.72req/s] [内存消耗：3,327.60kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'todaymoney',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_sys_order` [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT SUM(amount) AS tp_sum FROM `tbl_sys_order` WHERE  `ctime` BETWEEN 1651248000 AND 1651334400 LIMIT 1 [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:50+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=yesterd
+[运行时间：0.255850s] [吞吐率：3.91req/s] [内存消耗：3,333.85kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'yesterd',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_order` [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SELECT SUM(payamount) AS tp_sum FROM `tbl_order` WHERE  `status` = 2  AND `ctime` BETWEEN '2022-04-29 00:00:00' AND '2022-04-30 00:00:00' LIMIT 1 [ RunTime:0.000833s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:50+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=allls
+[运行时间：0.144898s] [吞吐率：6.90req/s] [内存消耗：3,330.61kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'allls',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_order` [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT SUM(payamount) AS tp_sum FROM `tbl_order` WHERE  `status` = 2 LIMIT 1 [ RunTime:0.000726s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:03:56+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/user/index
+[运行时间：0.028796s] [吞吐率：34.73req/s] [内存消耗：2,504.23kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ds.yisezu.com/admins/home/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\UserController->index[ /www/wwwroot/dscom/apps/admins/controller/UserController.php ]
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/admins/view/user/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-30T01:03:57+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/user/index?page=1&limit=17
+[运行时间：0.051314s] [吞吐率：19.49req/s] [内存消耗：3,502.17kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/user/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '17',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\UserController->index[ /www/wwwroot/dscom/apps/admins/controller/UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_user` [ RunTime:0.002190s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`fid`,`is_all`,money as umoney,`getmoney`,`hit`,`fee`,`ctime`,`ptfee`,`ename`,`status` FROM `tbl_user` ORDER BY `id` DESC LIMIT 0,17 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `id`,`username` FROM `tbl_user` WHERE  `id` IN ('') [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_order` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT uid,sum(allamount) as money FROM `tbl_order` WHERE  `uid` IN (7,6,5,4,3,2,1)  AND `status` = 2  AND `paytime` BETWEEN '2022-04-30 00:00:00' AND '2022-05-01 00:00:00' GROUP BY `uid` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT uid,sum(allamount) as money FROM `tbl_order` WHERE  `fid` IN (7,6,5,4,3,2,1)  AND `status` = 2  AND `paytime` BETWEEN '2022-04-30 00:00:00' AND '2022-05-01 00:00:00' GROUP BY `uid` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT uid,sum(allamount) as money FROM `tbl_order` WHERE  `uid` IN (7,6,5,4,3,2,1)  AND `status` = 2  AND `paytime` BETWEEN '2022-04-29 00:00:00' AND '2022-04-30 00:00:00' GROUP BY `uid` [ RunTime:0.002132s ]
+[ sql ] [ SQL ] SELECT uid,sum(allamount) as money FROM `tbl_order` WHERE  `fid` IN (7,6,5,4,3,2,1)  AND `status` = 2  AND `paytime` BETWEEN '2022-04-29 00:00:00' AND '2022-04-30 00:00:00' GROUP BY `uid` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tbl_user` LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:29:47+08:00 ] 45.32.51.164 GET www.niuapi.top/
+[运行时间：0.042430s] [吞吐率：23.57req/s] [内存消耗：2,430.48kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.niuapi.top',
+  'user-agent' => 'BAOTA-SSL-CHECK',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-30T01:29:48+08:00 ] 45.32.51.164 GET www.niuapi.top/cn/home/login
+[运行时间：0.057858s] [吞吐率：17.28req/s] [内存消耗：3,485.03kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.niuapi.top',
+  'user-agent' => 'BAOTA-SSL-CHECK',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001146s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.003800s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000834s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:29:56+08:00 ] 113.205.95.58 GET ds.yisezu.com/
+[运行时间：0.038029s] [吞吐率：26.30req/s] [内存消耗：2,433.25kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://104.129.8.8:8888/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-30T01:29:56+08:00 ] 113.205.95.58 GET ds.yisezu.com/cn/home/login
+[运行时间：0.054632s] [吞吐率：18.30req/s] [内存消耗：3,487.56kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://104.129.8.8:8888/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001436s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002335s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000778s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:01+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins
+[运行时间：0.055137s] [吞吐率：18.14req/s] [内存消耗：3,416.47kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->index[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/admins/view/home/index.html [ array (
+  0 => 'username',
+  1 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001187s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002221s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000766s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:02+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/tt
+[运行时间：0.058092s] [吞吐率：17.21req/s] [内存消耗：3,404.88kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'tt',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ds.yisezu.com/admins',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->tt[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/admins/view/home/tt.html [ array (
+  0 => 'username',
+  1 => 'title',
+  2 => 'money',
+  3 => 'date',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001722s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT DATE_FORMAT(utime,'%Y-%m-%d') as time,sum(amount) as  money FROM tbl_sys_order WHERE utime > '2022-04-23 00:00:00'  GROUP BY  time [ RunTime:0.001210s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:02+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=todaymoney
+[运行时间：0.127021s] [吞吐率：7.87req/s] [内存消耗：3,327.60kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'todaymoney',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012197s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002686s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_sys_order` [ RunTime:0.002193s ]
+[ sql ] [ SQL ] SELECT SUM(amount) AS tp_sum FROM `tbl_sys_order` WHERE  `ctime` BETWEEN 1651248000 AND 1651334400 LIMIT 1 [ RunTime:0.000927s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:02+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=yesterdaymoney
+[运行时间：0.178133s] [吞吐率：5.61req/s] [内存消耗：3,327.63kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'yesterdaymoney',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012101s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_sys_order` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT SUM(amount) AS tp_sum FROM `tbl_sys_order` WHERE  `ctime` BETWEEN 1651161600 AND 1651248000 LIMIT 1 [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:02+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=todayls
+[运行时间：0.156776s] [吞吐率：6.38req/s] [内存消耗：3,333.85kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'todayls',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000858s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001644s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_order` [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT SUM(payamount) AS tp_sum FROM `tbl_order` WHERE  `status` = 2  AND `ctime` BETWEEN '2022-04-30 00:00:00' AND '2022-05-01 00:00:00' LIMIT 1 [ RunTime:0.001231s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:02+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=allls
+[运行时间：0.137638s] [吞吐率：7.27req/s] [内存消耗：3,330.61kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'allls',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000939s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002423s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_order` [ RunTime:0.001823s ]
+[ sql ] [ SQL ] SELECT SUM(payamount) AS tp_sum FROM `tbl_order` WHERE  `status` = 2 LIMIT 1 [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:02+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=yesterd
+[运行时间：0.176818s] [吞吐率：5.66req/s] [内存消耗：3,333.85kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'yesterd',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000921s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002160s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_order` [ RunTime:0.001936s ]
+[ sql ] [ SQL ] SELECT SUM(payamount) AS tp_sum FROM `tbl_order` WHERE  `status` = 2  AND `ctime` BETWEEN '2022-04-29 00:00:00' AND '2022-04-30 00:00:00' LIMIT 1 [ RunTime:0.000969s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:02+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=hit
+[运行时间：0.219914s] [吞吐率：4.55req/s] [内存消耗：3,320.52kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'hit',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001672s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_hit` [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tbl_hit` LIMIT 1 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:03+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/home/getnum?ty=allmoney
+[运行时间：0.228741s] [吞吐率：4.37req/s] [内存消耗：3,322.13kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'home',
+    2 => 'getnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/home/tt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ty' => 'allmoney',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admins\controller\HomeController->getnum[ /www/wwwroot/dscom/apps/admins/controller/HomeController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001648s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_config` LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_sys_order` [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT SUM(amount) AS tp_sum FROM `tbl_sys_order` LIMIT 1 [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:05+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/ename/ground
+[运行时间：0.027031s] [吞吐率：36.99req/s] [内存消耗：2,346.57kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'ename',
+    2 => 'ground',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://ds.yisezu.com/admins',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\EnameController->ground[ /www/wwwroot/dscom/apps/admins/controller/EnameController.php ]
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/admins/view/ename/ground.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-30T01:30:05+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/ename/ground?page=1&limit=16
+[运行时间：0.037655s] [吞吐率：26.56req/s] [内存消耗：3,304.88kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'ename',
+    2 => 'ground',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/ename/ground',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '16',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\EnameController->ground[ /www/wwwroot/dscom/apps/admins/controller/EnameController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000749s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_ename` [ RunTime:0.002279s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_ename` ORDER BY `id` DESC LIMIT 0,16 [ RunTime:0.001613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tbl_ename` LIMIT 1 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:13+08:00 ] 113.205.95.58 POST ds.yisezu.com/admins/ename/adds
+[运行时间：0.049809s] [吞吐率：20.08req/s] [内存消耗：3,294.40kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'ename',
+    2 => 'adds',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '16',
+  'accept' => '*/*',
+  'origin' => 'http://ds.yisezu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://ds.yisezu.com/admins/ename/ground',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+)
+[ info ] [ PARAM ] array (
+  'ts' => 'ds.niuapi.top',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\EnameController->adds[ /www/wwwroot/dscom/apps/admins/controller/EnameController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001618s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_ename` [ RunTime:0.001950s ]
+[ sql ] [ SQL ] INSERT INTO `tbl_ename` (`ename` , `ctime` , `status`) VALUES ( 'ds.niuapi.top','2022-04-30 01:30:13',1 ) [ RunTime:0.003314s ]
+---------------------------------------------------------------
+[ 2022-04-30T01:30:14+08:00 ] 113.205.95.58 GET ds.yisezu.com/admins/ename/ground?page=1&limit=16
+[运行时间：0.039771s] [吞吐率：25.14req/s] [内存消耗：3,304.93kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'ename',
+    2 => 'ground',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3884.400 QQBrowser/10.8.4560.400',
+  'referer' => 'http://ds.yisezu.com/admins/ename/ground',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5lllrm3sif3r61u7j0oeg7rs12',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '16',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\EnameController->ground[ /www/wwwroot/dscom/apps/admins/controller/EnameController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000892s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_ename` [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_ename` ORDER BY `id` DESC LIMIT 0,16 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tbl_ename` LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2022-04-30T03:26:18+08:00 ] 185.207.154.83 GET ds.yisezu.com/
+[运行时间：0.038582s] [吞吐率：25.92req/s] [内存消耗：2,432.86kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-30T03:26:18+08:00 ] 185.207.154.83 GET ds.yisezu.com/cn/home/login
+[运行时间：0.081136s] [吞吐率：12.32req/s] [内存消耗：3,487.61kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ds.yisezu.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001347s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.003196s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001207s ]

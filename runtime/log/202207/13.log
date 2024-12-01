@@ -1,0 +1,2713 @@
+---------------------------------------------------------------
+[ 2022-07-13T00:53:52+08:00 ] 58.17.6.9 GET www.niuapi.top/
+[运行时间：0.053648s] [吞吐率：18.64req/s] [内存消耗：2,431.24kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 10 Build/LRX21P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.31',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T00:53:52+08:00 ] 58.17.6.9 GET www.niuapi.top/cn/home/login
+[运行时间：0.068766s] [吞吐率：14.54req/s] [内存消耗：3,485.73kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; Nexus 10 Build/LRX21P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.31',
+  'accept' => '*/*',
+  'referer' => 'http://www.niuapi.top',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003167s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.005182s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001682s ]
+---------------------------------------------------------------
+[ 2022-07-13T01:18:33+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/
+[运行时间：0.061188s] [吞吐率：16.34req/s] [内存消耗：2,432.15kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:18:33+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/cn/home/login
+[运行时间：0.091063s] [吞吐率：10.98req/s] [内存消耗：3,487.00kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002901s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.004945s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001466s ]
+---------------------------------------------------------------
+[ 2022-07-13T01:18:38+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/
+[运行时间：0.040367s] [吞吐率：24.77req/s] [内存消耗：2,432.49kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:18:44+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/mobile/login.html
+[运行时间：0.042167s] [吞吐率：23.72req/s] [内存消耗：1,886.02kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:18:44+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/xy/
+[运行时间：0.036311s] [吞吐率：27.54req/s] [内存消耗：1,886.13kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'xy',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:19:03+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/wap/
+[运行时间：0.034383s] [吞吐率：29.08req/s] [内存消耗：1,886.15kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:19:03+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/index
+[运行时间：0.035060s] [吞吐率：28.52req/s] [内存消耗：1,886.16kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:19:04+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/h5
+[运行时间：0.025703s] [吞吐率：38.91req/s] [内存消耗：1,908.85kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'h5',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:19:09+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/login
+[运行时间：0.038541s] [吞吐率：25.95req/s] [内存消耗：1,908.90kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:19:23+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/main
+[运行时间：0.027837s] [吞吐率：35.92req/s] [内存消耗：1,908.92kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'main',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:19:25+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/wap.html
+[运行时间：0.027163s] [吞吐率：36.81req/s] [内存消耗：1,886.16kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:19:44+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/api/ht/xy1
+[运行时间：0.036042s] [吞吐率：27.75req/s] [内存消耗：1,886.19kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ht',
+    2 => 'xy1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:19:55+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/api/notice
+[运行时间：0.034336s] [吞吐率：29.12req/s] [内存消耗：1,886.18kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'notice',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:20:01+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/js/a.script
+[运行时间：0.031432s] [吞吐率：31.81req/s] [内存消耗：1,886.15kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'a',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:20:20+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/m/allticker/1
+[运行时间：0.032190s] [吞吐率：31.07req/s] [内存消耗：1,908.70kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'm',
+    1 => 'allticker',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:20:56+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/v2/start/config
+[运行时间：0.045050s] [吞吐率：22.20req/s] [内存消耗：1,886.02kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v2',
+    1 => 'start',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:20:57+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/api/index/index
+[运行时间：0.033734s] [吞吐率：29.64req/s] [内存消耗：1,885.95kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:20:57+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/api/im/v2/app/t
+[运行时间：0.035813s] [吞吐率：27.92req/s] [内存消耗：1,886.37kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'im',
+    2 => 'v2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app' => 't',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:21:07+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/api/index/config
+[运行时间：0.040327s] [吞吐率：24.80req/s] [内存消耗：1,885.96kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:21:10+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/data/ticker_24hr
+[运行时间：0.036377s] [吞吐率：27.49req/s] [内存消耗：1,886.05kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data',
+    1 => 'ticker_24hr',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:21:10+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/Home/Get/getJnd28
+[运行时间：0.031500s] [吞吐率：31.75req/s] [内存消耗：1,885.97kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Home',
+    1 => 'Get',
+    2 => 'getJnd28',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:21:12+08:00 ] 128.1.131.216 POST 62cc6cf1a4bc4.ds.niuapi.top/api/link/platform
+[运行时间：0.031583s] [吞吐率：31.66req/s] [内存消耗：1,884.98kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'link',
+    2 => 'platform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'okhttp/3.3.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:21:12+08:00 ] 128.1.131.216 POST 62cc6cf1a4bc4.ds.niuapi.top/api/link/platform
+[运行时间：0.035030s] [吞吐率：28.55req/s] [内存消耗：1,885.11kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'link',
+    2 => 'platform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'xx032_bo9vs83_2a',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:21:13+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/mytio/config/base
+[运行时间：0.029232s] [吞吐率：34.21req/s] [内存消耗：1,885.97kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mytio',
+    1 => 'config',
+    2 => 'base',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:21:16+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/api/pc/configure
+[运行时间：0.029919s] [吞吐率：33.42req/s] [内存消耗：1,885.96kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pc',
+    2 => 'configure',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:21:16+08:00 ] 128.1.131.216 POST 62cc6cf1a4bc4.ds.niuapi.top/api/lastestBetLog
+[运行时间：0.030603s] [吞吐率：32.68req/s] [内存消耗：1,885.66kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'lastestBetLog',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:22:01+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/api/index/grailindex
+[运行时间：0.030980s] [吞吐率：32.28req/s] [内存消耗：1,886.05kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'grailindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:22:24+08:00 ] 128.1.131.216 POST 62cc6cf1a4bc4.ds.niuapi.top/api/user/mobilelogin
+[运行时间：0.031108s] [吞吐率：32.15req/s] [内存消耗：1,911.47kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'mobilelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13818563800',
+  'captcha' => '4578',
+  'channel' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:22:29+08:00 ] 128.1.131.216 GET 62cc6cf1a4bc4.ds.niuapi.top/api/shares/hqStrList
+[运行时间：0.027687s] [吞吐率：36.12req/s] [内存消耗：1,908.84kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'shares',
+    2 => 'hqStrList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:23:07+08:00 ] 128.1.131.216 POST 62cc6cf1a4bc4.ds.niuapi.top/api/config/getwebsitename
+[运行时间：0.036382s] [吞吐率：27.49req/s] [内存消耗：1,885.63kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'config',
+    2 => 'getwebsitename',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T01:23:40+08:00 ] 128.1.131.216 POST 62cc6cf1a4bc4.ds.niuapi.top/api/system/system/config/get
+[运行时间：0.033032s] [吞吐率：30.27req/s] [内存消耗：1,886.00kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'system',
+    2 => 'system',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cc6cf1a4bc4.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=d68rd236j0r5r0m2bpjeg8ejb3',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'config' => 'get',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:07+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/
+[运行时间：0.047103s] [吞吐率：21.23req/s] [内存消耗：2,432.15kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:07+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/cn/home/login
+[运行时间：0.071330s] [吞吐率：14.02req/s] [内存消耗：3,487.00kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003186s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.005543s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001878s ]
+---------------------------------------------------------------
+[ 2022-07-13T03:09:08+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/login
+[运行时间：0.072332s] [吞吐率：13.83req/s] [内存消耗：1,886.16kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:08+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/PSBC-1
+[运行时间：0.057725s] [吞吐率：17.32req/s] [内存消耗：1,886.13kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'PSBC-1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:13+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/api/index
+[运行时间：0.035820s] [吞吐率：27.92req/s] [内存消耗：1,886.18kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:14+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/mtja.html
+[运行时间：0.035901s] [吞吐率：27.85req/s] [内存消耗：1,886.15kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mtja',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:15+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/home/help
+[运行时间：0.044184s] [吞吐率：22.63req/s] [内存消耗：1,886.18kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'help',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:17+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/zoushi
+[运行时间：0.031480s] [吞吐率：31.77req/s] [内存消耗：1,886.13kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'zoushi',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:19+08:00 ] 23.248.162.16 POST 62cd74ba89252.ds.niuapi.top/api/linkPF
+[运行时间：0.033301s] [吞吐率：30.03req/s] [内存消耗：1,884.95kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'linkPF',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'xx032_bo9vs83_2a',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:34+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/entry/login
+[运行时间：0.030611s] [吞吐率：32.67req/s] [内存消耗：1,886.23kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'entry',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:09:39+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/fePublicInfo/
+[运行时间：0.033360s] [吞吐率：29.98req/s] [内存消耗：1,885.80kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fePublicInfo',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:06+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/user/login.html
+[运行时间：0.027843s] [吞吐率：35.92req/s] [内存消耗：1,908.77kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:09+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/friendGroup/list
+[运行时间：0.035965s] [吞吐率：27.80req/s] [内存消耗：1,886.05kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'friendGroup',
+    1 => 'list',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:10+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/appxz/index.html
+[运行时间：0.028134s] [吞吐率：35.54req/s] [内存消耗：1,885.94kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'appxz',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:10+08:00 ] 23.248.162.16 POST 62cd74ba89252.ds.niuapi.top/auth/oauth/token
+[运行时间：0.027202s] [吞吐率：36.76req/s] [内存消耗：1,885.70kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'auth',
+    1 => 'oauth',
+    2 => 'token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:20+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/web/api/getBanner
+[运行时间：0.050949s] [吞吐率：19.63req/s] [内存消耗：1,885.97kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'api',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:24+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/m/ticker/usdtqc
+[运行时间：0.030317s] [吞吐率：32.98req/s] [内存消耗：1,886.02kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'm',
+    1 => 'ticker',
+    2 => 'usdtqc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:29+08:00 ] 23.248.162.16 POST 62cd74ba89252.ds.niuapi.top/api/link/platform
+[运行时间：0.026874s] [吞吐率：37.21req/s] [内存消耗：1,907.95kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'link',
+    2 => 'platform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'okhttp/3.3.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:41+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/api/uploads/apimap
+[运行时间：0.029034s] [吞吐率：34.44req/s] [内存消耗：1,885.97kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'uploads',
+    2 => 'apimap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:10:42+08:00 ] 23.248.162.16 GET 62cd74ba89252.ds.niuapi.top/home/GetQrCodeInfo
+[运行时间：0.027853s] [吞吐率：35.90req/s] [内存消耗：1,886.01kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'GetQrCodeInfo',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=tl2gfc1ulhtus8b3da07t75vc5',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:26:58+08:00 ] 111.7.100.26 GET 62cd74ba89252.ds.niuapi.top/
+[运行时间：0.042379s] [吞吐率：23.60req/s] [内存消耗：2,431.40kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:27:02+08:00 ] 111.7.100.27 GET 62cd74ba89252.ds.niuapi.top/cn/home/login
+[运行时间：0.062754s] [吞吐率：15.94req/s] [内存消耗：3,485.63kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36',
+  'referer' => 'http://62cd74ba89252.ds.niuapi.top',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001986s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.003307s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001035s ]
+---------------------------------------------------------------
+[ 2022-07-13T03:27:21+08:00 ] 111.7.100.26 GET 62cd74ba89252.ds.niuapi.top/
+[运行时间：0.040274s] [吞吐率：24.83req/s] [内存消耗：2,432.39kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T03:27:22+08:00 ] 111.7.100.26 GET 62cd74ba89252.ds.niuapi.top/cn/home/login
+[运行时间：0.058749s] [吞吐率：17.02req/s] [内存消耗：3,487.16kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd74ba89252.ds.niuapi.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'cookie' => 'PHPSESSID=lb2mflm1q37ec7c9ta62a6oc17',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000906s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.001963s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[ 2022-07-13T04:04:19+08:00 ] 111.7.100.25 GET 62cd75442121a.ds.niuapi.top/
+[运行时间：0.060216s] [吞吐率：16.61req/s] [内存消耗：2,431.40kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd75442121a.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T04:04:22+08:00 ] 111.7.100.24 GET 62cd75442121a.ds.niuapi.top/cn/home/login
+[运行时间：0.070982s] [吞吐率：14.09req/s] [内存消耗：3,485.63kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd75442121a.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36',
+  'referer' => 'http://62cd75442121a.ds.niuapi.top',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003259s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.005540s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001863s ]
+---------------------------------------------------------------
+[ 2022-07-13T04:05:44+08:00 ] 111.7.100.25 GET 62cd75442121a.ds.niuapi.top/
+[运行时间：0.049465s] [吞吐率：20.22req/s] [内存消耗：2,432.39kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62cd75442121a.ds.niuapi.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:16+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/
+[运行时间：0.058195s] [吞吐率：17.18req/s] [内存消耗：2,431.84kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:16+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/cn/home/login
+[运行时间：0.076055s] [吞吐率：13.15req/s] [内存消耗：3,486.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004668s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.007133s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001895s ]
+---------------------------------------------------------------
+[ 2022-07-13T08:21:17+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/index/aurl
+[运行时间：0.075682s] [吞吐率：13.21req/s] [内存消耗：1,886.23kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'aurl',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:17+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/app/
+[运行时间：0.052078s] [吞吐率：19.20req/s] [内存消耗：1,886.15kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:27+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/login.html
+[运行时间：0.039998s] [吞吐率：25.00req/s] [内存消耗：1,886.13kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:27+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/mindex.html
+[运行时间：0.034456s] [吞吐率：29.02req/s] [内存消耗：1,886.18kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mindex',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:37+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/api/hevent
+[运行时间：0.038800s] [吞吐率：25.77req/s] [内存消耗：1,886.18kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'hevent',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:42+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/entry/login
+[运行时间：0.028930s] [吞吐率：34.57req/s] [内存消耗：1,909.03kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'entry',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:53+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/v2/start/config
+[运行时间：0.031072s] [吞吐率：32.18req/s] [内存消耗：1,886.02kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v2',
+    1 => 'start',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:21:54+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/standalone.html
+[运行时间：0.036472s] [吞吐率：27.42req/s] [内存消耗：1,885.89kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'standalone',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:03+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/friendGroup/list
+[运行时间：0.031977s] [吞吐率：31.27req/s] [内存消耗：1,908.82kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'friendGroup',
+    1 => 'list',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:07+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/register/trader/
+[运行时间：0.026163s] [吞吐率：38.22req/s] [内存消耗：1,908.83kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'register',
+    1 => 'trader',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:08+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/web/api/getBanner
+[运行时间：0.030261s] [吞吐率：33.05req/s] [内存消耗：1,885.97kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'api',
+    2 => 'getBanner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:14+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/ph_acquireSession
+[运行时间：0.034228s] [吞吐率：29.22req/s] [内存消耗：1,885.98kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ph_acquireSession',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:17+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/mytio/config/base
+[运行时间：0.033224s] [吞吐率：30.10req/s] [内存消耗：1,885.97kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mytio',
+    1 => 'config',
+    2 => 'base',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:17+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/legal/currency/set
+[运行时间：0.043168s] [吞吐率：23.17req/s] [内存消耗：1,885.97kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'legal',
+    1 => 'currency',
+    2 => 'set',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:29+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/api/site/getInfo.do
+[运行时间：0.037157s] [吞吐率：26.91req/s] [内存消耗：1,885.96kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'site',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:38+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/home/banner/getLogo
+[运行时间：0.035619s] [吞吐率：28.07req/s] [内存消耗：1,885.98kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'banner',
+    2 => 'getLogo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:48+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/api/Index/getLangCfg
+[运行时间：0.029900s] [吞吐率：33.44req/s] [内存消耗：1,886.05kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'getLangCfg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:59+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/v2/block/home/app/hot
+[运行时间：0.028400s] [吞吐率：35.21req/s] [内存消耗：1,886.47kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v2',
+    1 => 'block',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'app' => 'hot',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:59+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/index/home/login.html
+[运行时间：0.028289s] [吞吐率：35.35req/s] [内存消耗：1,885.98kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:59+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/index/user/login.html
+[运行时间：0.029146s] [吞吐率：34.31req/s] [内存消耗：1,885.98kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:22:59+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/index/open/login.html
+[运行时间：0.029840s] [吞吐率：33.51req/s] [内存消耗：1,885.98kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'open',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:23:03+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/api/default/login-page
+[运行时间：0.031241s] [吞吐率：32.01req/s] [内存消耗：1,886.07kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'default',
+    2 => 'login-page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:23:03+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/index/login/index.html
+[运行时间：0.028740s] [吞吐率：34.79req/s] [内存消耗：1,885.98kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:23:41+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/api/vue/transaction/config
+[运行时间：0.027327s] [吞吐率：36.59req/s] [内存消耗：1,886.09kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'vue',
+    2 => 'transaction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:23:42+08:00 ] 152.32.168.32 POST 62c9c5b8c9469.ds.niuapi.top/api/mstock/getsystemprivate
+[运行时间：0.028453s] [吞吐率：35.15req/s] [内存消耗：1,885.67kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'mstock',
+    2 => 'getsystemprivate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:23:44+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/home/login/login_index.html
+[运行时间：0.030081s] [吞吐率：33.24req/s] [内存消耗：1,908.96kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'login_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:23:50+08:00 ] 152.32.168.32 POST 62c9c5b8c9469.ds.niuapi.top/melody/api/v1/pageconfig/list
+[运行时间：0.053058s] [吞吐率：18.85req/s] [内存消耗：1,886.11kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'melody',
+    1 => 'api',
+    2 => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'pageconfig' => 'list',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:24:16+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/api/exclude/siteConfig/webSiteConfig
+[运行时间：0.032071s] [吞吐率：31.18req/s] [内存消耗：1,885.69kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'exclude',
+    2 => 'siteConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'okhttp/3.3.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:24:23+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/index.php?m=api&c=app&a=getPlatformConfig
+[运行时间：0.041092s] [吞吐率：24.34req/s] [内存消耗：2,432.95kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'api',
+  'c' => 'app',
+  'a' => 'getPlatformConfig',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T08:24:23+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/index.php/cn/home/login
+[运行时间：0.093100s] [吞吐率：10.74req/s] [内存消耗：3,482.16kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002316s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.003847s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001550s ]
+---------------------------------------------------------------
+[ 2022-07-13T08:24:28+08:00 ] 152.32.168.32 GET 62c9c5b8c9469.ds.niuapi.top/wap/api/exchangerateuserconfig!get.action
+[运行时间：0.032367s] [吞吐率：30.90req/s] [内存消耗：1,909.41kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'api',
+    2 => 'exchangerateuserconfig!get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '62c9c5b8c9469.ds.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1; EML-L29 Build/HUAWEIEML-L29; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 (iPad; iPhone; CPU iPhone OS 13_2_3 like Mac OS X)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json,*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-language' => 'zh',
+  'cookie' => 'PHPSESSID=o6h964eo8rhhot6iv05tjmhvp6',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T19:05:31+08:00 ] 42.83.147.34 GET www.niuapi.top/
+[运行时间：0.054891s] [吞吐率：18.22req/s] [内存消耗：2,431.25kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/74.0.3729.169 Safari/537.36',
+  'content-type' => 'text/html; charset=utf-8',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-07-13T19:05:32+08:00 ] 42.83.147.34 GET www.niuapi.top/cn/home/login
+[运行时间：0.075177s] [吞吐率：13.30req/s] [内存消耗：3,485.75kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/dscom/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn',
+    1 => 'home',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.niuapi.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/74.0.3729.169 Safari/537.36',
+  'content-type' => 'text/html; charset=utf-8',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mj6bj1d6elst56jaqmj2mvh21',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\cn\controller\HomeController->login[ /www/wwwroot/dscom/apps/cn/controller/HomeController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/dscom/apps/cn/view/home/login.html [ array (
+  0 => 'title',
+  1 => 'is_reg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001088s ] mysql:host=127.0.0.1;port=3306;dbname=dscom;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_config` [ RunTime:0.002765s ]
+[ sql ] [ SQL ] SELECT `title`,`is_reg` FROM `tbl_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001367s ]
